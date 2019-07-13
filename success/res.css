@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+body{
+    background-color: wheat;
+}
+.main{
+    width: 500px;
+    margin: 50px auto;
+    border: 5px solid red;
+    border-left: 40px solid red;
+    border-radius: 10px;
+    box-shadow: 2px 2px  10px;
+}
+
+.info{
+    width: 100%;
+    padding: 8px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 2px 1px #000;
+}
+.form-box{
+    padding: 25px;
+    background-color: coral;
+}
+label{
+    color:navy;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inp, #msg-box{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 3px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    border-right: 20px solid red;
+    border-left: 20px solid red;   
+}
+.inp:focus, #msg-box:focus{
+    outline: none;
+    border: 3px solid mediumaquamarine;
+    border-right: 20px solid mediumseagreen;
+    border-left: 20px solid mediumaquamarine;
+    color: navy;
+}
+
+#msg-box{
+    resize: none;
+    height: 89px;
+}
+
+.sub-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(red,yellow);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    background: linear-gradient(red,blue);
+}
+@media(max-width :820px){
+    .main{
+        width: 90%;
+    }
+}
